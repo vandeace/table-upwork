@@ -12,6 +12,8 @@ module.exports = {
       grey: '#3E3E3F',
       white: '#fff',
       semi: '#888888',
+      bottom: '#CAEC24',
+      top: '#7DE42A',
     },
   },
   variants: {

@@ -1,0 +1,36 @@
+@tailwind base;
+
+/* Write your own custom base styles here */
+
+/* Start purging... */
+@tailwind components;
+/* Stop purging. */
+
+/* Write you own custom component styles here */
+
+/* Start purging... */
+@tailwind utilities;
+/* Stop purging. */
+
+/* Your own custom utilities */
+
+@layer components {
+}
+
+input[type='range'] {
+  -webkit-appearance: none;
+  width: 100%;
+}
+
+input[type='range']::-webkit-slider-thumb {
+  height: 15px;
+  width: 15px;
+  border-radius: 999px;
+  background: #7de42a;
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+
+input[type='range']::-webkit-slider-runnable-track {
+  cursor: pointer;
+}
